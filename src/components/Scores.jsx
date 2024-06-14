@@ -17,7 +17,7 @@ export const Scores = ({ courseName, courseResults }) => {
             <tr key={index}>
               <td>{item.firstName}</td>
               <td>{item.lastName}</td>
-              <td className="warning">{item.score}</td>
+              <td className={item.firstName =="SOKUNTHEA" ||item.firstName =="NY" || item.firstName =="KADIN" ?"warning":""}>{item.score}</td>
             </tr>
           ))}
         </tbody>
