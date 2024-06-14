@@ -1,10 +1,9 @@
 import { Header } from "./components/Header";
-import pnLogo from "./assets/pn-logo.png";
 function App() {
   return (
     <>
       
-    <Header pnLogo={pnLogo}/>
+    <Header name={"Duc PNV25A"}/>
       <main className="scores-container">
         <div class="scores">
           <h1>Fake Course</h1>
